@@ -1,0 +1,13 @@
+IEOR 4500 HW 1 due September 18
+
+Use the data in "russell_prices.txt" available on Courseworks, for 947 assets
+over 504 days
+
+1. Compute sample mean returns and sample covariance matrix.
+2. Implement the algorithm for mean-variance portfolio optimization problem described in "qp.pdf".  Here each asset can have weight between 0 and 1.  You can use Python, Java, C or C++.
+3. For lambda = 0, how many assets do you have in your optimal basket, and what risk (total variance) do you have?
+4. Plot an approximate risk (variance) v. return curve by running the optimization over different choices of lambda.  What is the smallest variance you see
+in any of these optimizations?
+5. Let s2_0 be the variance you reported in #3, and let s2_min be the variance
+you reported in #4.  Define s2_mid = 0.5(s2_0 + s2_min).  Estimate the value of
+lambda needed so that your optimal portfolio has variance s2_mid.

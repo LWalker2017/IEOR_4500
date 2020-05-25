@@ -1,0 +1,3 @@
+IEOR 4500 HW 2 due September 30
+
+Exactly the same as HW 1, but use algorithm 2.  You are encouraged to experiment with step size versions.

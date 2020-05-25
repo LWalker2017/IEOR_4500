@@ -1,0 +1,14 @@
+IEOR 4500 HW 3 due October 9
+
+Implement the optimal execution algorithm discussed in class, in Python.
+
+Use the power impact function, where for parameters alpha > 0 and pi > 0, 
+when you sell k shares the price (per share) is first reduced by a factor of 1 - alpha k^pi
+
+Your algorithm should take as input the values alpha, pi, N (number of shares to sell) and T (number of periods available).
+
+Reasonable values for alpha are small, like 1e-3 or 1e-4, and for pi you should be able to use any number, but think about 0.5 as a good candidate.
+
+You should eventually be able to run the program using N = 10^4 and T = 20, but for debugging purposes you should start with much smaller values for both N and T.
+
+Try to make your program run as FAST as possible!  Any language is allowed so long as it is Python with or without numpy.
